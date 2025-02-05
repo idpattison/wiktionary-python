@@ -2,25 +2,25 @@ import json
 import requests
 import re
 
-class TreeNode:
-    def __init__(self, type=None, name=None):  # type for the node, attributes as keyword args
-        self.name = name
-        self.type = type
-        self.lines = []  # Initialize as an empty list
-        self.children = [] # Initialize as an empty list
+# class TreeNode:
+#     def __init__(self, type=None, name=None):  # type for the node, attributes as keyword args
+#         self.name = name
+#         self.type = type
+#         self.lines = []  # Initialize as an empty list
+#         self.children = [] # Initialize as an empty list
 
-    def add_child(self, child):
-        self.children.append(child)
+#     def add_child(self, child):
+#         self.children.append(child)
 
-    def add_line(self, line):
-        self.lines.append(line)
+#     def add_line(self, line):
+#         self.lines.append(line)
 
-    def __repr__(self):  # For easy printing/representation
-        return f"TreeNode(name={self.name}, lines={len(self.lines)})"
+#     def __repr__(self):  # For easy printing/representation
+#         return f"TreeNode(name={self.name}, lines={len(self.lines)})"
 
 
 
-def get_word(word, language):
+def get_word(word, langcode):
 
     # for the given word, retrieve the JSON data from Wiktionary
     # first define the URL to retrieve the data
@@ -36,17 +36,17 @@ def get_word(word, language):
     wikitext = data['parse']['wikitext']['*']
 
     # parse the wikitext to extract the sections for the given language
-    tree = wikitext_to_tree_nodes(wikitext, language)
+    tree = wikitext_to_tree_nodes(wikitext, langcode)
 
     # now convert the generic tree nodes to a specific language directory
-    language_tree = tree_nodes_to_language_tree(tree, language, word)
+    language_tree = tree_nodes_to_language_tree(tree, langcode, word)
 
     print(language_tree)
 
 
 
 
-def wikitext_to_tree_nodes(wikitext, language):
+def wikitext_to_tree_nodes(wikitext, langcode):
     tree = { "name": "Root", "level": 0, "children": [], "lines": [] } # Initialize the tree with a root node
     node_path = [tree] # breadcrumb trail of the current nodes so we can add to the correct on;e
 
@@ -70,6 +70,7 @@ def wikitext_to_tree_nodes(wikitext, language):
             # tree node class depends on the name of the section
             node = { "name": title, "level": level, "children": [], "lines": [] }
             node_path[-1]["children"].append(node)
+
             # finally add the new node to the node path
             node_path.append(node)
 
@@ -80,7 +81,7 @@ def wikitext_to_tree_nodes(wikitext, language):
 
     return tree
 
-def tree_nodes_to_language_tree(tree, language, word):
+def tree_nodes_to_language_tree(tree, langcode, word):
     # create a directory with specific labels for the given language
     # if we can't find the language, return an empty dictionary 
     language_tree = {}
@@ -91,8 +92,8 @@ def tree_nodes_to_language_tree(tree, language, word):
 
             # add basic information to the language tree
             language_tree["word"] = word
-            language_tree["language"] = "en"
-            language_tree["gloss"] = word # this should be the meaning of the word
+            language_tree["langcode"] = "en"
+            language_tree["gloss"] = word # only include this for non-English words
 
             # iterate through the grandchildren of the language node
             for section in child["children"]:
@@ -114,11 +115,10 @@ def process_pronunciation_section(section, parent_node):
     for line in section["lines"]:
         tags = get_tags(line)
         for tag in tags:
-            arguments = get_tag_arguments(tag)
-            if arguments[0] in ["enPR"]:
-                pronunciation_node[arguments[0]] = arguments[1]
-            if arguments[0] in ["IPA", "homophones", "rhymes"]:
-                pronunciation_node[arguments[0]] = arguments[2]
+            if tag_head(tag) in ["enPR"]:
+                pronunciation_node[tag_head(tag)] = tag_arg(tag, 1)
+            if tag_head(tag) in ["IPA", "homophones", "rhymes"]:
+                pronunciation_node[tag_head(tag)] = tag_arg(tag, 2)
 
     parent_node["pronunciation"] = pronunciation_node
 
@@ -132,12 +132,48 @@ def process_etymology_section(section, parent_node):
 
     for line in section["lines"]:
         tags = get_tags(line)
+        previous_word = ""
         for tag in tags:
-            arguments = get_tag_arguments(tag)
-            # root tage has the format {{root|en|ine-pro|*h₁rewdʰ-}}
-            if arguments[0] == "root":
-                root_node = { "langcode": arguments[2], "word": arguments[3] }
+
+            # root tag has the format {{root|en|ine-pro|*h₁rewdʰ-}}
+            if tag_head(tag) == "root":
+                root_node = { "langcode": tag_arg(tag, 2), "word": tag_arg(tag, 3) }
                 etymology_node["root"] = root_node
+                previous_word = tag_arg(tag, 3)
+
+            # inh tag has the format {{inh|en|enm|red|id=red}}
+            # cog tag has the format {{cog|en|enm|red}}
+            # m tag is an alias for cog
+            # if the word is "-" then use the previous word
+            if tag_head(tag) in ["inh", "cog", "m"]:
+                if tag_head(tag) == "inh":
+                    index_name = "inherits"
+                    lang = tag_arg(tag, 2)
+                    word = tag_arg(tag, 3)
+                if tag_head(tag) in ["cog", "m"]:
+                    index_name = "cognates"
+                    lang = tag_arg(tag, 1)
+                    word = tag_arg(tag, 2)
+                # check if we already have the relevant node in the etymology node
+                if index_name not in etymology_node:
+                    etymology_node[index_name] = []
+                if word == "-":
+                    new_node = { "langcode": lang, "word": previous_word }
+                else:
+                    new_node = { "langcode": lang, "word": word }
+                # if there is a tag 3 in a non-inh tag, it is likely to be a transliteration
+                # format is tr=transliteration
+                # we should also check if the word is in a non-Latin script
+                if tag_head(tag) != "inh" and tag_arg(tag, 3) and tag_arg(tag, 3) != "" and not re.match(r'^[a-zA-Z0-9]*$', word):
+                    new_node["translit"] = tag_arg(tag, 3)[3:]
+                # if there is a tag 4 or tag 5, it is likely to be a gloss
+                if tag_arg(tag, 4) and tag_arg(tag, 4) != "":
+                    new_node["gloss"] = tag_arg(tag, 4)
+                if tag_arg(tag, 5) and tag_arg(tag, 5) != "":
+                    new_node["gloss"] = tag_arg(tag, 5)
+                etymology_node[index_name].append(new_node)
+                if word != "-":
+                    previous_word = word
 
     parent_node["etymologies"].append(etymology_node)
 
@@ -153,3 +189,14 @@ def get_tag_arguments(tag):
     # arguments are separated by pipes like this: head|var1|var2
     arguments = tag.split('|')
     return arguments
+
+def tag_head(tag):
+    # get the head, which will be the first argument
+    return get_tag_arguments(tag)[0]
+
+def tag_arg(tag, index):
+    # get the argument at the given index
+    if len(get_tag_arguments(tag)) > index:
+        return get_tag_arguments(tag)[index]
+    else:
+        return None
