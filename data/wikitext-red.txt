@@ -1,0 +1,894 @@
+{{also|Appendix:Variations of "red"}}
+==English==
+{{wikipedia}}
+[[File:Color icon red.svg|thumb|Various shades of '''red''']]
+[[File:Woman redhead natural portrait 1.jpg|thumb|right|A woman with '''red''' hair.]]
+[[File:Uyghur-redhead.jpg|thumb|right|A [[Uyghur]] girl in [[China]] who has '''red''' hair.]]
+[[File:Red Wine Glas.jpg|thumb|150px|A glass of '''red''' wine]]
+[[File:Oncorhynchus nerka.flipped.jpg|thumb|right|A '''red''' [[salmon]]]]
+
+===Pronunciation===
+* {{enPR|rĕd}}, {{IPA|en|/ɹɛd/|[ɻʷɛˑd̥]}}
+* {{audio|en|en-us-red.ogg|a=US}}
+* {{audio|en|En-uk-red.ogg|a=RP}}
+* {{homophones|en|read}} {{qualifier|past tense/participle}}
+* {{rhymes|en|ɛd|s=1}}
+
+===Etymology 1===
+{{root|en|ine-pro|*h₁rewdʰ-}}
+From {{inh|en|enm|red|id=red}}, from {{inh|en|ang|rēad}}, from {{inh|en|gmw-pro|*raud}}, from {{inh|en|gem-pro|*raudaz}} from {{inh|en|ine-pro|*h₁rowdʰós}}, from the root {{m|ine-pro|*h₁rewdʰ-}}.
+
+{{col-top|2|cog}}
+See also {{cog|fy|read}}, {{cog|nds|root}}, {{m|nds|rood}}, {{m|nds|rot}}, {{m|nds|rod}}, {{cog|nl|rood}}, {{cog|de|rot}}, {{cog|da|-}} and {{cog|nb|rød}}, {{cog|nn|raud}}; also {{cog|cy|rhudd}}, {{cog|la|ruber}}, {{m|la|rufus}}, {{cog|xto|rtär}}, {{cog|txb|ratre}}, {{cog|grc|ἐρυθρός}}, {{cog|sq|pruth||redhead}}, [[Russian]] [[рудый|''ру́дый'']] (rúdyj) ("red", "redhaired"). {{cog|cs|rudý}}, {{cog|lt|raúdas}}, {{cog|fi|rauta}}, {{cog|et|raud}}, [[Serbo-Croatian]] [[riđ|''riđ'']] ("reddish", "red"), {{cog|ae|𐬭𐬀𐬊𐬌𐬛𐬌𐬙𐬀}}, {{cog|sa|रुधिर|tr=rudhirá||red, bloody}}.
+{{col-bottom}}
+
+====Adjective====
+{{en-adj|er|more}}
+
+# Of a red hue.
+#: {{ux|en|The girl wore a '''red''' skirt.}}
+#* {{RQ:Shakespeare Henry 4-2|II|iv|passage=Your colour, I warrant you, is as '''red''' as any rose.}}
+#* {{quote-book|en|author=w:J.R.R. Tolkien|title=w:The Fellowship of the Ring|chapter=I: A Long-Expected Party|series=w:The Lord of the Rings|isbn=9780345339706|date=29 July 1954|seriesvolume=1|passage= The flowers glowed '''red''' and golden: snapdragons and sunflowers, and [[nasturtians]] trailing all over the turf walls and peeping in at the round windows. }}
+# {{lb|en|of hair}} Having an orange-brown or orange-blond colour; [[ginger]].
+#: {{ux|en|Her hair had '''red''' highlights.}}
+# {{lb|en|of the skin}} Having a redder hue than usual due to [[embarrassment]], [[anger]], [[sunburn]], etc.; [[flushed]].
+#* {{quote-book|1=en|year=1982|author=w:Douglas Adams|title=Life, the Universe and Everything|page=23|text=[T]he sun was shining on a happy crowd. It shone on white hats and '''red''' faces. It shone on ice lollies and melted them.}}
+# {{lb|en|of a|dog|or|its coat}} Having a brown color.
+# {{lb|en|card games|of a card}} Of the [[hearts]] or [[diamonds]] suits. Compare {{m|en|black||of the spades or clubs suits}}
+#: {{ux|en|I got two '''red''' queens, and he got one of the black queens.}}
+# {{lb|en|politics|often|_|capitalized}} Supportive of, related to, or dominated by a political party or movement represented by the color red:
+## [[left-wing|Left-wing]] parties and movements, chiefly [[socialist]] or [[communist]], including the U.K. [[Labour]] party and the [[w:Social Democratic Party of Germany|Social Democratic Party]] of [[Germany]].
+##* "Only Nixon could go to China" was the refrain of conventional wisdom during Richard Nixon’s 1972 official visit to Mao Tse-tung’s regime. Nixon’s anti-communist credentials, however dubious, provided useful camouflage as he opened diplomatic relations with '''Red''' China and made breathtaking concessions that an undisguised liberal couldn’t get away with. [https://web.archive.org/web/20061114093022/http://www.thenewamerican.com/tna/1998/vo14no16/vo14no16_dragon.htm]
+##: {{co|en|the '''red'''-black grand coalition in Germany}}
+## {{lb|en|US politics}} The U.S. [[w:Republican Party (United States)|Republican Party]]. {{defdate|21st c.}}
+##: {{co|en|a '''red''' state}}
+##: {{co|en|a '''red''' Congress}}
+# {{lb|en|chiefly|derogatory|offensive}} [[Amerind]]; relating to [[Amerindian]]s or [[First Nations]]
+#* {{quote-text|en|year=1994|author=Soundgarden|title=Spoonman
+|passage=All my friends are Indians / All my friends are brown and '''red'''}}
+# {{lb|en|astronomy}} Of the lower-frequency region of the (typically visible) part of the electromagnetic spectrum which is relevant in the specific observation.
+# {{lb|en|particle physics}} Of a red [[color charge]].
+
+=====Synonyms=====
+* {{sense|color}} [[scarlet]], [[crimson]], [[vermilion]], [[ruby]]-red, [[cherry]]-red, [[cerise]], [[cardinal]]-red, [[carmine]], [[wine]]-red, [[claret]]-red, [[blood]]-red ([[sanguine]]), [[coral]]-red, [[cochineal]]-red, [[rose]]-red ([[rosy]], [[damask]]), [[brick]]-red, [[maroon]], [[rust]]-red (rusty), [[rufous]]-red, [[gules]]-red, [[rufescent]].
+
+=====Antonyms=====
+* {{antsense|having red as its colour}} [[nonred]], [[unred]]
+* {{antsense|having red as its colour charge}} [[antired]]
+
+=====Derived terms=====
+{{col|en|red flag day|red penny|red tailed shark|red wattlebird|red-fin shark|red-finned shark|red-line torpedo barb|red-tailed black shark|red bean porridge|red currant|red mirage|red shift|red spurge|red-chested cuckoo|red-toothed
+| Adrianople red|alizarin red|anti-red|apple red|arrest-me-red|ash-red
+| barn red|beetroot red|better dead than red|big red button|big red switch|bleed red ink|blood-red|blood-red fancy|blue-red|brick-red
+| cadmium red|Cambodian red|Canadian red pine|cardinal red|carmine red|carthamus red|catch red-handed|cherry-red|Christmas Island red crab|code red|Cuban red macaw|cut red tape
+| dago red|dark red,dead-red
+| eastern red cedar|Ezo red fox
+| Falun red|Falu red|French red
+| Great Red Dragon|grey red-backed vole
+| Harlan's red-tailed hawk|Harrison red|Himalayan red bear
+| indigo red|infra-red|Irish red ale
+| kino red
+| Little Red Riding Hood
+| Magdala red,magdala red|Miss Waldron's red colobus|Moroccan red,Morocco red|Mount Graham red squirrel|Murray red gum
+| Nantucket red|naphthalene red|Nile red|northern red-backed vole|northern red oak
+| Old Red Sandstone
+| paint the town red|paranitraniline red|para red|Parliamentary red|picrosirius red|Prussian red|put on the red light
+| Quebec red trout|quinova red
+| ragged red fibers|raise red flags|ratanhia red
+| red admirable|red admiral|red alder|red ale|red alert|red alga|red-and-green macaw|red and silver dewdrop|red ant|red antimony|red ape|red apple|Red Army|red arrow|red as a beetroot|red as a lobster|red ash|red-assed|red avadavat
+| red-back,redback,red back|red-backed fairywren|red-backed hawk|red-backed sea eagle|red-backed shrike|red bag delivery|red-bait|red-baiter|red-baiting|red ball|red banana|red band|red-banded sand wasp|red bandfish|red banner|Red Bay<ll:toponym>|red bay<qq:tree>|red bayberry|red bean|red beet|red-bellied black snake|red-bellied piranha|red-bellied titi|red biddy|red-billed|red-billed gull|red-billed leiothrix|red-billed woodcreeper|red birch|red-bird,redbird|red-black tree|red-blood|red blood cell|red blood cell cast|red-blooded|red-bloodedness|Red Bluff|red book|red bourgeoisie|red box|red brass|red-breasted flycatcher|red-breasted goose|red-breasted merganser|red-breasted sapsucker|red-brick,redbrick|red brick university|Red Brigades|red-brown|red brush|redbud|redbug|red button
+| red cabbage|red campion|red cap|red-capped|red-capped parrot|red car|red card,red-card|red cardinal flower|red carpet,red-carpet|red-carpetful|Redcastle|red caviar|red cedar|red cell|red cent|red chalk|red chamber|red chickweed|Red China|red chip|red chokeberry|red circle rate|Red Cloud|red clover|red clump|red Clydeside|red coat,redcoat|red-cockaded woodpecker|red codling|red-collared lorikeet|red-collared widowbird|red-cook|red copper|red coral|red corpuscle|red cotton-tree,red cotton tree|Red Crescent|red-crested pochard|Red Cross|red crossbill|red-crowned crane|red cunt hair|red currant]], [[red-currant]]|red cypress
+| red daikon|red day|red dead man's fingers|red deer|red delicious|redden|red detuning|red-diaper|red diaper baby,red-diaper baby|red diesel|reddish|red dog|red drum|red dwarf
+| red-eared slider|red-eared terrapin|red-eared turtle|red ear syndrome|red earth|red egg|red elm|red ensign|red envelope|Red Eye|red eye,red-eye,redeye
+|red-eyed|red-eye gravy
+| red-faced|red-faced cormorant|red face test|red factor canary|red-fan parrot|red fascism|red fascist|red fescue|red fever|red figure|red fir|red fire|redfish|red-flaggy|red flag in front of a bull|red flag knowledge|red flag law|red flag,Red Flag|red flag to a bull|red flag warning|Red Flames|red-flanked bluetail|red flour beetle|red flower|red-footed falcon|red-footed tortoise|red forest|red fox|red-fronted tinkerbird|red fuming nitric acid
+| red geyser|red giant|red ginger|red gold|red goods|red grape|red-green,red green|red-green alliance|red-green-brown alliance|red-green coalition|red grouse|Red Guard,red guard|red gum,red-gum|red gurnard
+| red hair|red hake|red-handed|red-handedly|red-handedness|red hat|Red Hawke|redhead|red-headed,redheaded|red-headed Eskimo|red-headed honeyeater|red-headed stepchild|red heat|red Helen|red herring|red herring prospectus|Red Hill|red hind|red hornweed|red horse,redhorse|red-hot,red hot|red-hot minute|red-hot poker|red huckleberry|red-humped caterpillar|red hydrogen
+| red imported fire ant|red ink|red-inker|red in the face|red in tooth and claw|red ivory
+| red jackal|red jade|red judge|red junglefowl|red juniper
+| red kangaroo|Red Ken|red king crab|red kite|red knot|red kuri squash
+| Red Lake County|Red Lake Falls|red lane|red lead|red leaf|red Leb|red-leg,red leg|red-legged golden orb-weaver spider|{{vern|red-legged grasshopper}} ({{taxlink|Melanoplus femurrubrum|species}})|red-legged partridge|red-legged tinamou|Red Leicester|red-letter|red-letter day,red letter day|red-letter edition|red letter law|red licorice|red light|red-light camera,red light camera|red-light district,red light district|red line|Red Liner|red link|red-linked|red lion|red-lipped batfish|red liquor|red liquorice|Red List|red lives matter|Red Lodge|red lynx
+| red-maids,red maids|red mammee,red mamey|red man|red manganese|red manganese oxide|red mange|red man syndrome|[[red maple]] ({{taxfmt|Acer rubrum|species}})|red marrow|red mass
+| red mead|red measles|red meat|red meat radish|red menace|red mercury|red mist|red mite|red moki|red mongo|red monkey|red mud|red mulberry|red mulga|red mullet
+| red-necked buzzard|red-necked francolin|red-necked grebe|red-necked phalarope|red-necked stint|red-necked wallaby|red-necked woodpecker|red neck syndrome|red Ned|red neuralgia|red-nigger,red nigger|red nightshade|red noise|red-nose tetra|red notice|red nucleus|red nugget|red nugget galaxy
+| red oak|Red Oak<ll:toponym>|red oak tree|red ocher,red ochre|red onion|red osier|red osier dogwood|red owl|red oxide|red oxygen
+| red packet|red panda|red pea|red-pencil|red pepper|red phalarope|red phosphorus|red pill|red pilled|red piller|red pine|red pipe|red piranha|red plague|red planet|red point,red-point|Red Poll|[[redpoll]] ({{taxfmt|Acanthis|genus}} spp.)|red poppy|red porgy|red precipitate|red princess flower|{{vern|red puccoon}} ({{taxfmt|Sanguinaria canadensis|species}})|red pudding|red pussy hair
+| red rag|red-ragger|red rag to a bull|red rail|red raspberry|red rattle|red rattler|red-red stew|red ribbon|red rice|red rider|red-rimmed|red ring|red ring disease|red ring of death|red ring skirt|red river hog|Red Rock|red rock crab|red rocket|red room|redroot|Red Roses|red rot|red route|red-rumped swallow|Red Russian kale|Red Rose of Lancaster
+| red salmon|red sanders|red sauce|Red Scar|red scare|red scarf|red sea|Red Sea|Red Sea Hills|red seaperch|red setter|red-shafted flicker|red shank|redshank|red-shanked douc|red shirt,red-shirt|red-short|red-shortness|red-shouldered hawk|red silky oak|red silver|red siskin|red slaw|red slender loris|red snake|red snapper|red snow|red sorrel|red spider|red spiral|red spiral galaxy|Red Spot|red-spotted purple|red sprite|red spruce|red squad|Red Square|{{vern|red squill}} ({{taxfmt|Drimia maritima|species}})|red squirrel|Red Star|red-start|red state|red steenbras|red strawberry tongue|red string of fate|reds under the bed|red sunflower|red supergiant|red swampdragon
+| red tag|red-tagging|red tail disease|red-tailed black cockatoo|red-tailed hawk|red-tailed phascogale|red-tailed shrike|red-tailed squirrel|red-tailed tropicbird|red tape|red-tapeism|red-tapism|red-tapist|red tea|red-team,red team|red teamer|red terror|red-throat|red-throated diver|red-throated loon|red-throated pipit|red-throated thrush|red-throated tit|red tide|red tiger|red time|red toad trillium|red-toothed shrew|red-top,red top,redtop|red-to-red|red triangle slug|red trillium|red turtle dove
+| red under the bed|red-up,red up
+| red valerian|red-veined darter|red-veined dock|red velvet|red velvet cake,red-velvet cake|red velvet mite|red vet pet|Red Vienna|red vitriol|Red Volta
+| red wall|red water|red wave|red wedding|red week|Red Wharf Bay|red wiggler|Red Willow County|Red Willow Creek|red wine headache|redwing,red-wing|Red Wing|red-winged blackbird|red-winged fairywren|[[red whortleberry]] ({{taxfmt|Vaccinium vitis-idaea|species}})|red-winged tinamou|red wings|red wolf|red won|redwood|[[red worm]] ({{taxfmt|Lumbricina|suborder}} spp.)
+| red yeast rice
+| red zone,red-zone
+| river red gum|roll out the red carpet|rose red,rosy-red|rosy-red minnow|royal red prawn|ruby-red,ruby red|run a red light|ruthenium red
+| scarlet red|Shasta red fir|sit dead-red|Spanish red|spot-red|straight red|straight red card
+| take the red eye|take the red pill|tile red|turn a number of shades of red|turn on red
+| unexpected red theory
+| violet red bile agar
+| we all bleed red|{{vern|western red cedar}} ({{taxfmt|Thuja plicata|species}})|wormred
+| yellow-red
+}}
+
+=====Translations=====
+{{see translation subpage|Adjective}}
+
+====Noun====
+{{en-noun|~}}
+
+# {{lb|en|countable|and|uncountable}} The colour of the setting sun; the colour which is evoked by the longest visible [[wavelengths]] (between about 625–740 nm), and a primary additive colour.
+#: {{color panel|F00000}}
+#: {{ux|en|'''Red''' can be seen as hot or angry.}}
+# {{senseid|en|communist}} {{lb|en|countable}} A [[revolutionary]] [[socialist]] or (most commonly) a [[Communist]]; {{qualifier|usually capitalized}} a [[Bolshevik]], a supporter of the Bolsheviks in the Russian Civil War.
+#: {{cot|en|pinko}}
+# {{lb|en|countable|snooker}} One of the 15 red balls used in [[snooker]], distinguished from the [[colour]]s.
+# {{lb|en|countable|and|uncountable}} [[#Adjective|Red]] [[wine]].
+#* {{quote-song|en|year=1977|month=September|title=w:Scenes from an Italian Restaurant|author=w:Billy Joel|album={{w|The Stranger (album)|The Stranger}}|passage=A bottle of '''red''', a bottle of white / It all depends upon your appetite / I'll meet you any time you want / in our Italian restaurant.}}
+#* {{quote-book|en|year=2005|author=Jeffrey P. Landry|title=Temptation Mango
+|passage=He produced a wine key from his jacket pocket and effortlessly removed the cork from the bottle of '''red'''.}}
+#* {{quote-journal|en|year=2008|month=January–February|title=70 Ways to Improve Every Day of the Week|journal=w:Men's Health|volume=23|issue=1|issn=1054-4836|page={{gbooks|6ccDAAAAMBAJ|135|red}}|passage='''59 {{smallcaps|sneak in some red}}''' Smuggle a bottle of wine, two glasses, and a corkscrew into a long matinee. Red wine is rich in life-extending antioxidants, and the caper will add zest even to a bad movie.}}
+# {{lb|en|countable}} Any of several varieties of [[ale]] which are brewed with red or kilned [[malt]], giving the beer a red colour.
+#: {{hypo|en|Flanders red|Irish red}}
+#* {{quote-book|en|date=2012-06-05|author=Howard Stelzer|title=Beer Cocktails: 50 Superbly Crafted Cocktails that Liven Up Your Lagers and Ales|publisher=Harvard Common Press|isbn=9781558328006
+|text=American '''reds''' and doppelbocks are heavy lagers as well. It really comes down to how the beer was made. Beyond that, brewers are immensely creative and have developed styles of both ale and lager that run a wide range of attributes.}}
+#* {{quote-book|en|date=2016-04-01|author=Lonely Planet; Helena Smith; Andy Symington; Donna Wheeler|title=Lonely Planet Belgium & Luxembourg|publisher=Lonely Planet|isbn=9781760341367
+|text=No other country has a brewing tradition as richly diverse as that of Belgium, with beers ranging from pleasant pale lagers to wild, winelike Flemish '''reds''' and lambics.}}
+# {{lb|en|countable|informal|AU}} A [[red kangaroo]].
+# {{lb|en|countable|informal|UK|birdwatching}} A [[redshank]].
+# {{lb|en|derogatory|offensive}} An [[American Indian]].
+#: {{syn|en|redskin}}
+# {{lb|en|slang}} The drug [[secobarbital]]; a capsule of this drug.
+#: {{syn|en|redbird|red devil}}
+#* {{quote-song|en|year=1970|title=Truckin'|artist=Grateful Dead|album=American Beauty|passage=What in the world ever became of sweet Jane? / She lost her sparkle, you know she isn't the same / Livin' on '''reds''', vitamin C, and cocaine}}
+#* {{quote-book|en|year=1971|author=Hunter S. Thompson|title=Fear and Loathing in Las Vegas|publisher=Harper Perennial|year_published=2005|page=202|passage=The big market, these days, is in Downers. '''Reds''' and smack—Seconal and heroin—and a hellbroth of bad domestic grass sprayed with everything from arsenic to horse tranquillizers.}}
+#* {{quote-book|en|year=1998|year_published=2021|author=w:Jeffery Deaver|title=w:The Coffin Dancer|location=New York, NY|publisher=w:Pocket Books|isbn=9781982163792|page={{gbooks|dWsREAAAQBAJ|285|reds}}|passage=“Whatchu got, man?” / “'''Reds''', bennies, dexies, yellow jackets, demmies.” / “Yeah, demmies're good shit, man. I pay you. Fuck. I got money. I'm hurting inside. Got beat up. Where my money?”}}
+# {{lb|en|informal}} A [[red light]] {{gloss|a traffic signal}}
+#* {{quote-song|en|year=1974|author=Tom Waits|title=(Looking for) The Heart of Saturday Night|url=http://www.tomwaits.com/songs/song/329/Looking_For_The_Heart_Of_Saturday_Night/|album=w:The Heart of Saturday Night|text=Stopping on the '''red''', you're going on the green / Cause tonight will be like nothing you've ever seen / And you're barreling down the boulevard / You're looking for the heart of Saturday night}}
+# {{lb|en|Ireland|UK|beverages|informal}} {{cap|red lemonade}}
+# {{lb|en|particle physics}} One of the three [[color charge]]s for [[quark]]s.
+# {{lb|en|US|colloquial|uncountable}} {{cap|chili con carne}} {{q|usually in the phrase "bowl of red"}}.
+#* {{quote-journal|en|year=1982|journal=The Rotarian|volume=140|issue=1|page=39
+|passage=Houston visited a home in an early pioneer settlement where he was offered a bowl of '''red'''. Houston eagerly took his first large spoonful. His eyes watering, he spat out his bite {{...}}}}
+# {{lb|en|informal}} The [[redfish]] or [[red drum]], {{taxlink|Sciaenops ocellatus|species}}, a fish with reddish fins and scales.
+#* {{quote-web|en|year=2013|month=November|author=Catch Cormier|title=Sightcasting for redfish|work=Louisiana Sportsman|url=https://www.louisianasportsman.com/fishing/inshore-fishing/pumpkin-time/|passage=The species Sciaenops ocellatus certainly isn’t lacking for nicknames.{{...}} Clear water also favors sightcasting. Against the dark background of marsh mud, a '''red''' will appear like a pumpkin — big, orange and round.}}
+# {{lb|en|slang|uncountable}} [[tomato|Tomato]] [[ketchup]].
+#* {{quote-text|en|year=2016|author=Jon Bounds; Danny Smith|title=Pier Review: A Road Trip in Search of the Great British Seaside
+|passage=I squeeze some '''red''' out over my chips and feel guilty. Nothing is as English as Heinz ketchup in the sauce game, except perhaps HP.}}
+
+=====Derived terms=====
+{{col4|en|title=Terms derived from ''red'' (noun)
+|antired
+|beet red
+|blood red|strawberry red
+|brick red
+|cherry red
+|Chinese red
+|chrome red
+|Congo red
+|fire engine red
+|flowerpot red
+|in the red
+|Indian red
+|Panama Red
+|Paris red
+|phenol red
+|Pompeian red
+|postbox red
+|sand red
+|see red
+|Turkey red
+|Tuscan red
+|Venetian red
+|wine red
+|wormred
+}}
+
+=====Translations=====
+{{trans-top|colour}}
+{{multitrans|data=
+* Afrikaans: {{tt+|af|rooi}}
+* Ainu: {{tt|ain|フレ|tr=hure}}
+* Aklanon: {{tt|akl|puea}}
+* Albanian: {{tt+|sq|kuq}}
+* Amharic: {{tt+|am|ቀይ}}
+* Arabic: {{tt|ar|حُمْرَة|f}}, {{tt+|ar|أَحْمَر|m}}
+*: Egyptian Arabic: {{tt|arz|أحمر|m|tr=ʔaḥmar}}
+* Aragonese: {{tt|an|royo|m}}
+* Armenian: {{tt+|hy|կարմիր}}
+* Assamese: {{tt|as|ৰঙা}}, {{tt|as|ৰঙা ৰং}}
+* Assyrian Neo-Aramaic: {{tt|aii|ܣܡܘܿܩܵܐ|m|tr=smoqa}}
+* Asturian: {{tt+|ast|bermeyu|m}}
+* Azerbaijani: {{tt+|az|qırmızı}}
+* Bashkir: {{tt|ba|ҡыҙыл}}
+* Basque: {{tt|eu|gorri}}
+* Belarusian: {{tt+|be|чырво́ны}}
+* Bengali: {{tt+|bn|লাল}}
+* Bhojpuri: {{t|bho|लाल}}
+* Breton: {{tt+|br|ruz}}
+* Budukh: {{tt|bdk|ал}}
+* Bulgarian: {{tt+|bg|червен|m}}
+* Burmese: {{tt+|my|အနီ}}
+* Buryat: {{tt|bua|улаан}}
+* Catalan: {{tt+|ca|vermell|m}}, {{tt+|ca|roig|m}}
+* Cebuano: {{tt|ceb|pula}} ''or'' {{tt|ceb|puwa}}
+* Central Huishui Hmong: {{tt|hmc|liab}}
+* Chechen: {{tt|ce|цӏе}}, {{tt|ce|цӏен}}
+* Cherokee: {{tt|chr|ᎩᎦᎨᎢ}}
+* Chichewa: {{tt|ny|chofiira}}
+* Chickasaw: {{tt|cic|homa}}
+* Chinese:
+*: Cantonese: {{tt|yue|紅色|tr=hung4 sik1}}
+*: Eastern Min: {{tt|cdo|红色|tr=oing saik}}
+*: Hokkien: {{tt+|nan-hbl|紅色|tr=âng-sek}}
+*: Mandarin: {{tt+|cmn|紅色|tr=hóngsè}}
+* Chukchi: {{tt|ckt|чеԓгыԓьын|tr=čeḷgyḷʹyn}}
+* Cornish: {{tt|kw|rudh}}
+* Corsican: {{tt+|co|rossu}}
+* Czech: {{tt+|cs|červeň|f}}, {{tt+|cs|červená|f}}, {{tt+|cs|rudá|f}}
+* Danish: {{tt+|da|rød}}
+* Dutch: {{tt+|nl|rood}}
+* Dzongkha: {{tt|dz|དམརཔོ}}
+* Esperanto: {{tt|eo|ruĝo}}
+* Estonian: {{tt+|et|punane}}
+* Evenki: {{tt|evn|хулама}}
+* Ewe: {{tt|ee|dzĩ}}
+* Farefare: {{tt|gur|mõlga}}
+* Finnish: {{tt+|fi|punainen}}
+* Franco-Provençal: {{tt|frp|rojo|m}}
+* French: {{tt+|fr|rouge|m}}
+* Galician: {{tt+|gl|vermello|m}}, {{tt+|gl|encarnado|m}}
+* Georgian: {{tt|ka|წითელი ფერი}}, {{tt+|ka|წითელი}}
+* German: {{tt+|de|Rot|n}}
+* Greek: {{tt+|el|κόκκινο|n}}, {{tt+|el|ερυθρό|n}}, {{tt+|el|πορφυρό|n}}, {{tt+|el|άλικο|n}}
+* Greenlandic: {{tt+|kl|aappaluttoq}}
+* Guaraní: {{tt|gn|pytã}}
+* Gujarati: {{tt+|gu|લાલ}}
+* Haitian Creole: {{t|ht|rouj}}, {{tt|ht|wouj}}
+* Hausa: {{tt|ha|ja}}
+* Hawaiian: {{tt|haw|ʻulaʻula}}
+* Hebrew: {{tt+|he|אדום|tr=adom}}
+* Higaonon: {{tt|mba|maliga}}
+* Hiligaynon: {{tt|hil|pula}}
+* Hindi: {{tt+|hi|लाल}}, {{t+|hi|रुधिर}}
+* Hungarian: {{tt+|hu|piros}}, {{tt+|hu|vörös}}
+* Icelandic: {{tt+|is|rauður}}
+* Ido: {{tt+|io|reda}}
+* Igbo: {{tt|ig|acha ọbara ọbara}}
+* Indonesian: {{tt+|id|merah}}
+* Ingush: {{tt|inh|цӏе}}
+* Interlingua: {{tt|ia|rubio}}, {{tt|ia|rubro}}, {{tt|ia|rubido}} {{qualifier|dark}}
+* Irish: {{tt+|ga|dearg}}, {{tt+|ga|rua}} {{qualifier|dark}}
+* Italian: {{tt+|it|rosso|m}}
+* Japanese: {{tt+|ja|赤|tr=あか, aka}}
+* Javanese: {{tt+|jv|abang}} {{qualifier|ngoko}}, {{tt+|jv|abrit}} {{qualifier|krama}}
+* Kalmyk: {{tt|xal|улаан}}
+* Kannada: {{tt+|kn|ಕೆಂಪು}}
+* Kapampangan: {{t|pam|lutu}}
+* Kashubian: {{tt|csb|czerwiony}}
+* Kazakh: {{tt+|kk|қызыл}}
+* Khinalug: {{tt|kjj|ал}}
+* Khmer: {{tt+|km|ក្រហម|tr=grəhorm}}
+* Kikuyu: {{tt|ki|ũtune|c14}}
+* Kongo: {{tt|kg|mbwaki}}
+* Korean: {{tt+|ko|빨강}}, {{tt+|ko|빨간색}}
+* Kyrgyz: {{tt+|ky|кызыл}}
+* Lao: {{tt+|lo|ສີແດງ}}
+* Latgalian: {{tt|ltg|sorkons|m}}, {{tt|ltg|sorkona|f}}
+* Latin: {{tt|la|[[color]] [[ruber]]|m}}
+* Latvian: {{tt+|lv|sarkans|m}}
+* Ligurian: {{tt|lij|rósso|m}}
+* Lithuanian: {{tt|lt|raudonas|m}}, {{tt|lt|raudona|f}}
+* Lombard: {{tt+|lmo|ross}}
+* Louisiana Creole French: {{tt|lou|rouj}}
+* Luxembourgish: {{tt+|lb|rout}}
+* Macedonian: {{tt|mk|црвена}}
+* Maguindanao: {{tt|mdh|mariga}}
+* Malagasy: {{tt+|mg|mena}}
+* Malay: {{tt+|ms|merah}}
+* Malayalam: {{tt+|ml|ചുവപ്പ്}}
+* Maltese: {{tt+|mt|aħmar}}
+* Manchu: {{tt|mnc|ᡶᡠᠯᡤᡳᠶᠠᠨ}}
+* Manx: {{tt|gv|jiarg}}
+* Maori: {{tt+|mi|whero}}
+* Maranao: {{tt|mrw|mariga'}}
+* Marathi: {{tt+|mr|लाल}}
+* Maricopa: {{tt|mrc|hwetam}}
+* Mongolian: {{tt+|mn|улаан|sc=Cyrl}}  {{tt|mn|ᠤᠯᠠᠭᠠᠨ}}
+* Moore: {{tt|mos|miuugu}}, {{tt|mos|miigi}}, {{tt|mos|miiri}}
+* Nanai: {{tt|gld|сэгден}}
+* Navajo: {{tt|nv|łichíʼí}}
+* Nepali: {{tt+|ne|रातो}}
+* Nga La: {{tt|hlt|sen}}
+* Nheengatu: {{t|yrl|piranga}}
+* Norwegian: {{tt+|no|rød}}, {{t+|no|raud}}
+* O'odham: {{tt|ood|wegi}}
+* Occitan: {{tt+|oc|rog|m}}, {{tt+|oc|roge|m}}
+* Odia: {{tt+|or|ନାଲି}}
+* Old Norse: {{tt|non|rauðr}}
+* Pangasinan: {{t|pag|ambalanga}}
+* Persian: {{tt+|fa|قرمز|tr=qermez}}, {{tt+|fa|سرخ|tr=sorx}}, {{tt+|fa|احمر|tr=ahmar}}
+* Polish: {{tt+|pl|czerwień|f}}
+* Portuguese: {{tt+|pt|vermelho|m}}, {{tt+|pt|rubro|m}}, {{tt+|pt|vermelha|f}}, {{tt+|pt|rubra|f}}, {{tt+|pt|encarnado|m}}, {{tt+|pt|escarlate|m}}
+* Punjabi: {{tt+|pa|ਲਾਲ}}
+* Quechua: {{tt|qu|puka}}
+* Romanian: {{tt+|ro|roșu}}
+* Russian: {{tt+|ru|кра́сный}}
+* Samoan: {{tt|sm|lanu mumu}}
+* Sanskrit: {{t+|sa|रुधिर}}, {{t+|sa|लोहित}}
+* Saterland Frisian: {{tt|stq|rood}}
+* Scots: {{tt|sco|reid}}
+* Scottish Gaelic: {{tt|gd|dearg}}, {{tt|gd|ruadh}} {{qualifier|dark red, auburn}}
+* Serbo-Croatian:
+*: Cyrillic: {{tt|sh|црвена|f}}
+*: Roman: {{tt+|sh|crvena|f}}
+* Sherpa: {{tt|xsr|མར་རུ|tr=maru}}
+* Shona: {{tt|sn|tsvuku}}
+* Sinhalese: {{tt+|si|රතු}}
+* Slovak: {{tt|sk|červená}}
+* Slovene: {{tt|sl|rdeča|f}}
+* Somali: {{tt|so|gaduud}}
+* Sorbian:
+*: Lower Sorbian: {{tt|dsb|cerwjeń|f}}
+* Sotho: {{tt|st|lesêdi}}, {{tt+|st|khubelu}}
+* Spanish: {{tt+|es|rojo}}
+* Sundanese: {{tt+|su|beureum}}
+* Swahili: -{{tt|sw|ekundu}}
+* Swedish: {{tt+|sv|röd}}, {{tt+|sv|rött}}
+* Sylheti: {{tt|syl|ꠟꠣꠟ}}
+* Tagalog: {{tt+|tl|pula}}
+* Tajik: {{tt|tg|surx}}
+* Tamil: {{tt+|ta|சிவப்பு}}
+* Tausug: {{tt|tsg|pula}}
+* Telugu: {{tt+|te|ఎరుపు}}
+* Tetum: {{tt|tet|mean}}
+* Thai: {{tt+|th|สีแดง|tr=sǐi-dɛɛng}}
+* Tibetan: {{tt|bo|དམར}}, {{tt|bo|དམར་པོ}}
+* Tok Pisin: {{tt|tpi|redpela}}
+* Tupinambá: {{tt|tpn|pirang}}, {{tt|tpn|pitang}}
+* Turkish: {{tt+|tr|kırmızı}}, {{tt+|tr|kızıl}}, {{tt+|tr|al}}
+* Turkmen: {{tt|tk|gyzyl}}
+* Tuvan: {{tt|tyv|кызыл}}
+* Ukrainian: {{tt+|uk|червоний}}
+* Unami: {{tt|unm|maxke}}, {{tt|unm|maxksu}}
+* Urdu: {{t+|ur|لال|tr=lāl}}, {{t|ur|سرخ|tr=surx}}, {{t+|ur|راتا|tr=rātā}}
+* Uyghur: {{tt+|ug|قىزىل}}
+* Uzbek: {{tt+|uz|qizil}}
+* Vietnamese: {{tt+|vi|đỏ}} ({{tt|vi|𣠶|sc=Hani}})
+* Walloon: {{tt+|wa|rodje|m}}
+* Welsh: {{tt+|cy|rhudd}}, {{tt+|cy|coch}}
+* West Frisian: {{tt+|fy|read}}
+* Western Bukidnon Manobo: {{tt|mbb|meriɣa'}}
+* Winnebago: {{tt|win|šuuc}}
+* Xhosa: {{tt|xh|bomvu}}
+* Yiddish: {{tt|yi|רויט}}
+* Yoruba: {{tt|yo|pupa}}
+* Yucatec Maya: {{tt|yua|chak}}
+* Zazaki: {{tt+|zza|sur}}, {{tt+|zza|rem}}
+* Zulu: {{tt|zu|obomvu}}
+{{trans-bottom}}
+
+{{trans-top|socialist, communist}}
+* Bulgarian: {{tt+|bg|червен}}
+* Catalan: {{tt+|ca|roig|m}}, {{tt+|ca|roja|f}}
+* Czech: {{tt+|cs|rudý|m}}
+* Finnish: {{tt+|fi|punainen}}
+* Georgian: {{tt+|ka|წითელი}}
+* German: {{tt|de|Rote|f}}, {{tt|de|Roter|m}}
+* Greek: {{tt+|el|κόκκινος}}
+* Hungarian: {{tt+|hu|vörös}}
+* Korean: {{tt+|ko|공산주의자}}, {{tt+|ko|빨갱이}} {{qualifier|disapproving}}
+* Portuguese: {{tt+|pt|vermelho|m}}, {{tt+|pt|rubro|m}}
+* Russian: {{tt+|ru|кра́сный|m}}
+* Spanish: {{tt+|es|rojo|m}}
+* Venetan: {{t+|vec|roso|m}}
+* Zazaki: {{tt+|zza|surık}}
+{{trans-bottom}}
+
+{{trans-top|snooker: one of the 15 red balls}}
+* Finnish: {{tt+|fi|punainen}}
+{{trans-bottom}}
+
+{{trans-top-also|red wine|red wine}}
+* Catalan: {{tt+|ca|vi negre|m}}
+* Cebuano: {{tt|ceb|bino tinto}}, {{tt|ceb|tinto}}
+* Czech: {{tt|cs|červené|n}}
+* Finnish: {{tt+|fi|punainen}}
+* Galician: {{tt+|gl|viño tinto|m}}
+* Hungarian: {{tt+|hu|vörösbor}}
+* Korean: {{tt+|ko|적포도주}}, {{tt|ko|레드 와인}}
+* Portuguese: {{tt+|pt|vinho tinto}}
+* Spanish: {{tt+|es|tinto|m}}
+* Uyghur: {{tt|ug|قىزىل ھاراق}}
+* Zazaki: {{tt|zza|surani}}
+{{trans-bottom}}
+
+{{trans-top-also|informal: redshank|redshank}}
+* Finnish: {{tt|fi|punajalka}}
+{{trans-bottom}}
+
+{{trans-top-also|derogatory: Amerind|Amerind}}
+* Finnish: {{tt|fi|punanahka}}
+{{trans-bottom}}
+
+{{trans-top-also|slang: secobarbital|secobarbital}}
+* Finnish: {{tt|fi|sekobarbitaali}}
+{{trans-bottom}}
+
+{{trans-top-also|red light|red light}}
+* Finnish: {{tt+|fi|punainen}} {{q|often in the plural}}
+{{trans-bottom}}
+
+{{trans-top-also|red lemonade|red lemonade}}
+* Finnish: {{tt|fi|[[punainen]] [[limsa]]}}
+{{trans-bottom}}
+
+{{trans-top|particle physics: one of the three color charges for quarks}}
+* Finnish: {{tt+|fi|punainen}}
+{{trans-bottom}}
+
+{{trans-top-also|colloquial: chili con carne|chili con carne}}
+* Finnish: {{tt+|fi|chili}}
+{{trans-bottom}}
+
+{{trans-top-also|fish ''Sciaenops ocellatus''|red drum}}
+* Finnish: {{tt|fi|punarumpukala}}
+}}<!-- close multitrans -->
+{{trans-bottom}}
+
+====See also====
+{{list:reds/en}}
+* [[primary colour]]
+{{table:colors/en}}
+
+====References====
+* {{R:Online Etymology Dictionary|red}}
+* {{R:Webster 1913|red}}
+* {{R:OneLook}}
+
+===Etymology 2===
+From the archaic verb {{m|en|rede}}.
+
+====Verb====
+{{head|en|verb form}}
+
+# {{lb|en|archaic}} {{infl of|en|rede||ed-form}}
+
+===Etymology 3===
+
+====Verb====
+{{en-verb}}
+
+# {{alternative spelling of|en|redd}}
+
+====References====
+* {{R:Online Etymology Dictionary|redd}}
+* {{R:Webster 1913}}
+
+===Anagrams===
+* {{anagrams|en|a=der|DRE|Der|Der.|EDR|ERD|RDE|der|erd}}
+
+{{cln|en|3-letter words}}
+{{C|en|Australian politics|Colors of the rainbow|Communism|Croakers|Reds|Scolopacids|Recreational drugs|Macropods|UK politics}}
+
+==Bislama==
+
+===Etymology===
+From {{inh|bi|en|red}}.
+
+===Adjective===
+{{head|bi|adjective}}
+
+# [[#English|red]]
+
+==Danish==
+
+===Pronunciation===
+* {{IPA|da|/reːd/|[ʁæðˀ]}}
+
+===Verb===
+{{head|da|verb form}}
+
+# {{infl of|da|ride||past}}
+
+==Dutch==
+
+===Pronunciation===
+* {{IPA|nl|/rɛt/}}
+* {{audio|nl|Nl-red.ogg}}
+* {{hyphenation|nl|red}}
+* {{rhymes|nl|ɛt|s=1}}
+* {{homophones|nl|redt|Reth}}
+
+===Verb===
+{{head|nl|verb form}}
+
+# {{infl of|nl|redden||bare-verb}}
+
+===Anagrams===
+* {{l|nl|der}}
+
+==German==
+
+===Pronunciation===
+* {{IPA|de|/ʁeːt/}}
+* {{audio|de|De-red.ogg}}
+* {{rhymes|de|eːt|s=1}}
+
+===Verb===
+{{head|de|verb form}}
+
+# {{verb form of|de|reden||s|imp}}
+
+==Italian==
+
+===Noun===
+{{head|it|noun}}
+
+# a type of rice
+
+{{C|it|Grains}}
+
+==Manx==
+
+===Etymology===
+From {{inh|gv|sga|rét}}.
+
+===Noun===
+{{gv-noun|m|reddyn|red}}
+
+# [[thing]], [[object]], [[item]]
+#: {{ux|gv|Cha daink '''reddyn''' dy mie.|Things didn't pan out well.}}
+#: {{ux|gv|Cha nel shen deyr son y leagh t'er '''reddyn''' nish.|That's not dear as things go.}}
+#: {{ux|gv|Kanys ta '''reddyn''' goll er?|How are things?}}
+#: {{ux|gv|Son y chied '''red''', t'eh ro vie dy ve firrinagh.|For one thing, it is too good to be true.}}
+#: {{ux|gv|Ta '''reddyn''' couyral.|Things are getting better.}}
+#: {{ux|gv|Ta '''reddyn''' ennagh ayn nagh vel niart ain orroo.|There are some things we cannot help.}}
+#: {{ux|gv|Ta shen '''red''' aitt.|That's a curious thing.}}
+#: {{ux|gv|T'eh yn un '''red'''.|It amounts to the same thing.}}
+#: {{ux|gv|T'eh çheet stiagh rish yn '''red''' elley.|It falls in with the other thing.}}
+#: {{ux|gv|She'n '''red''' hene eh y traa shoh.|It's the real thing this time.}}
+#: {{ux|gv|Va shen yn '''red''' cooie dy ghra.|That was the appropriate thing to say.}}
+# [[matter]]
+
+==Middle English==
+<!--this Middle English entry was created using Template:new enm entry-->
+
+===Etymology 1===
+{{etymid|enm|counsel}}
+From {{inh|enm|ang|rǣd}}, from {{inh|enm|gmw-pro|*rād}}, from {{inh|enm|gem-pro|*rēdaz}}.
+
+====Alternative forms====
+* {{alter|enm|ræd|rede|reed}}
+
+====Pronunciation====
+* {{IPA|enm|/rɛːd/|/reːd/}}
+
+====Noun====
+{{enm-noun|redes}}
+
+# [[counsel]], [[advice]], [[recommendation]]
+# [[persuasion]], [[convincing]]
+# [[agreement]], [[permission]], [[allowance]]
+# [[decree]], [[edict]]
+# [[decision]], [[will]], [[purpose]]
+# [[judgement]], judicial [[decision]], [[opinion]]
+# [[plan]], [[strategy]], [[programme]], [[plot]]
+# [[event]], [[happening]], [[occurrence]]
+# [[benefit]], [[boon]], [[help]]
+# [[deliberation]], [[discussion]]
+# [[wisdom]]
+
+=====Related terms=====
+* {{l|enm|hird}}
+
+=====Descendants=====
+* {{desc|en|rede}}
+* {{desc|sco|rede}}
+
+=====References=====
+* {{R:MED Online|entry=rēd |pos=n.(1) |id=MED36280 |accessdate=2018-03-30}}
+
+===Etymology 2===
+{{etymid|enm|reed}}
+From {{inh|enm|ang|hrēod}}, from {{inh|enm|gmw-pro|*hreud}}.
+
+====Alternative forms====
+* {{alter|enm|red|reed|reede|reod|reede|rode|rued}}
+
+====Pronunciation====
+* {{IPA|enm|/røːd/|a=Early ME}}
+* {{IPA|enm|/reːd/}}
+
+====Noun====
+{{enm-noun|redes}}
+
+# [[reed]], [[flax]] {{gloss|plant}}
+# The stalk of a reed
+# [[straw]], [[thatching]]
+# [[reed]] [[pen]]
+
+=====Descendants=====
+* {{desc|en|reed}}
+* {{desc|sco|reed}}
+
+=====References=====
+* {{R:MED Online|entry=rēd|pos=n.(3)|id=MED36282 |accessdate=2018-03-30}}
+
+===Etymology 3===
+{{etymid|enm|red}}
+From {{inh|enm|ang|rēad}}, from {{inh|enm|gmw-pro|*raud}}, from {{inh|enm|gem-pro|*raudaz}}, from {{inh|enm|ine-pro|*h₁rowdʰós}}.
+
+====Alternative forms====
+* {{alter|enm|redde|reed|read|ræd}}
+
+====Pronunciation====
+* {{IPA|enm|/rɛːd/|/reːd/}}
+
+====Adjective====
+{{enm-adj||redder|reddest}}
+
+# [[#English|red]], [[crimson]], [[scarlet]] (in color)
+# [[#English|red]] [[pigment]]
+# [[reddened]], [[dyed]] [[#English|red]]
+# [[blushing]], red-faced
+# [[bloody]], [[blood-stained]]
+# [[ruddy]], [[rosy]]
+# [[red-haired]]
+# [[#English|red]]-[[clothed]], [[wearing]] [[#English|red]]
+# {{lb|enm|metal}} [[golden]]
+# {{lb|enm|alchemy}} causing transmutation into gold
+
+=====Descendants=====
+* {{desc|en|red}}
+* {{desc|sco|rede|reid}}
+* {{desc|yol|reed}}
+
+=====References=====
+* {{R:MED Online|entry=rēd |pos=adj |id=MED36283 |accessdate=2018-03-30}}
+
+====Noun====
+{{head|enm|noun}}
+
+# [[#English|red]] {{gloss|colour}}
+# [[#English|red]] [[pigment]], [[vermillion]], [[cinnabar]]
+# {{lb|enm|heraldry}} [[#English|red]], [[gules]] {{gloss|tincture}}
+# [[reddish]] or [[ruddy]] [[skin]]
+# [[reddish]] [[eyes]] or [[irises]]
+# [[#English|red]] [[fabric]]
+# [[#English|red]] [[wine]]
+# [[blood]]
+
+=====Related terms=====
+* {{l|enm|Rede See}}
+
+=====Descendants=====
+* {{desc|en|red}}
+* {{desc|sco|rede|reid}}
+* {{desc|yol|reed}}
+
+=====See also=====
+{{table:colors/enm}}
+
+=====References=====
+* {{R:MED Online|entry=rēd |pos=n.(2) |id=MED36281 |accessdate=2018-03-30}}
+
+{{C|enm|Plants|Water plants}}
+
+==Northern Kurdish==
+
+===Pronunciation===
+* {{rhymes|kmr|ɛd|s=1}}
+
+===Verb===
+{{kmr-verb}}
+
+# to [[disappear]].
+
+==Norwegian Bokmål==
+
+===Alternative forms===
+* {{alt|nb|rei}}
+
+===Verb===
+{{head|nb|verb form}}
+
+# {{inflection of|nb|ri||simple past}}
+# {{inflection of|nb|ride||simple past}}
+
+==Old English==
+
+===Pronunciation===
+* {{ang-IPA|red}}
+
+===Noun===
+{{ang-noun|m}}
+
+# {{alternative form of|ang|ræd}}
+
+==Polish==
+
+===Pronunciation===
+{{pl-pr|a=LL-Q809 (pol)-Poemat-red.wav}}
+
+===Noun===
+{{head|pl|noun form}}
+
+# {{inflection of|pl|reda||gen|p}}
+
+==Serbo-Croatian==
+
+===Etymology===
+{{inh+|sh|sla-pro|*rędъ}}.
+
+===Pronunciation===
+* {{sh-IPA|rȇd}}
+
+===Noun===
+{{sh-noun|g=m|head=rȇd}}
+
+# [[row]]
+# {{lb|sh|mathematics}} [[series]]
+#: {{coi|sh|konvergentan red|convergent series}}
+#: {{coi|sh|divergentan red|divergent series}}
+# [[queue]]
+# [[order]] {{gloss|of magnitude}}
+# [[order]] {{gloss|arrangement, disposition}}
+# [[line]] {{gloss|of customers}}
+# {{lb|sh|chess}} [[rank]]
+# {{lb|sh|religion}} [[order]]
+#: {{coi|sh|franjevački '''red'''|order of Saint Francis of Assisi}}
+
+====Declension====
+{{sh-decl-noun
+|rȇd|rȅdovi
+|rȇda|rȅdōvā
+|rȇdu|rȅdovima
+|rȇd|rȅdove
+|rȇde|rȅdovi
+|rȇdu|rȅdovima
+|rȇdom|rȅdovima
+}}
+
+===References===
+* {{R:sh:HJP|dlpkWhI%3D}}
+
+==Slovene==
+
+===Etymology 1===
+From {{inh|sl|sla-pro|*rędъ}}.
+
+====Pronunciation====
+* {{sl-IPA|rẹ̑d}}
+
+====Noun====
+{{sl-noun|rẹ̑d|m-in}}
+
+# [[order]] (arrangement, disposition)
+
+=====Inflection=====
+{{sl-decl-noun-m-ov|réd}}
+{{sl-decl-noun-m|réd}}
+
+===Etymology 2===
+
+====Pronunciation====
+* {{sl-IPA|rẹ̑d}}
+
+====Noun====
+{{sl-noun|rẹ̑d|f}}
+
+# [[swath]] (the track cut out by a scythe in mowing)
+
+=====Inflection=====
+{{sl-decl-noun-f-i-mobile|réd}}
+
+===Further reading===
+{{R:sl:FR}}
+
+==Spanish==
+{{was fwotd|es|2013|May|8}}
+{{wp|lang=es}}
+
+===Etymology===
+{{inh+|es|osp|red}}, from {{inh|es|la|rēte||net}}. Cognate with {{cog|en|rete}}.
+
+===Pronunciation===
+{{es-pr|+<audio:LL-Q1321 (spa)-AdrianAbdulBaha-red.wav<a:Colombia>>}}
+
+===Noun===
+{{es-noun|f}}
+
+# {{lb|es|hunting|tools}} [[web]], [[mesh]]
+# {{lb|es|fishing}} [[net]]
+#* {{quote-text|es|year=1911|author=Benito Pérez Galdós|title=De Cartago a Sagunto : 13|passage=Si se consigue pescar a Dorregaray con cuarenta mil duretes, a Cástor Andéchaga con veinticinco mil, y a otros tales, habremos hecho más que cogiendo en la '''red''' a los bicharracos de menor cuantía.}}
+# [[spiderweb]]
+#: {{syn|es|telaraña|tela de araña}}
+# [[trap]], [[snare]]
+#: {{syn|es|trampa|cepo}}
+# {{lb|es|communication|transportation}} [[net]], [[network]]
+#: {{coi|es|'''red''' de carreteras|highway '''network'''}}
+#: {{coi|es|'''red''' de radiodifusoras|radio broadcasters '''network'''}}
+#: {{coi|es|'''red''' televisiva|TV broadcasting '''network'''}}
+# {{lb|es|sport}} [[net]], [[goal]]
+# {{lb|es|electricity}} [[grid]]
+#: {{coi|es|fuera de la '''red'''|off the '''grid'''}}
+# {{lb|es|informal|sometimes|capitalized}} [[Web]], [[Internet]]
+#* {{quote-journal|es|date=16 January 2013|author=|title=España: al 74% le gustaría acceder por Red a su historial clínico|newspaper=El País|url=http://tecnologia.elpais.com/tecnologia/2013/01/16/actualidad/1358335291_182447.html|passage=La mayoría de la población (84%) accede a la '''red''' para temas relacionados con la sanidad.|t=Most of the population (84%) accesses the '''web''' for health-related topics.}}
+#* {{quote-journal|es|author=Sara Rivas Moreno|quotee= Paula González|title=Las pymes montan la tienda en Instagram|work=El País|date=2021-01-29|location=Madrid|url=https://elpais.com/elpais/2021/01/25/actualidad/1611577343_748413.html|issn=1134-6582|passage="Nunca hemos hecho una campaña ni hemos pagado por seguidores, pero como soy prehistórica de la '''Red''', me une una relación de contacto y amistad con muchas ''influencers''; de no ser así, no nos sacarían", puntualiza.}}
+# {{lb|es|in plural}} [[social networks]]
+#: {{syn|es|[[red social|redes sociales]]}}
+
+====Derived terms====
+{{col|es|enredar|enredo|redada|redecilla|redil|red de pesca|red social|red trófica|romperedes}}
+
+====Related terms====
+{{col|es|reticular|retina}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+{{C|es|Arachnids|Tools}}
+
+==Swedish==
+
+===Pronunciation===
+* {{IPA|sv|/reːd/}}
+* {{rhymes|sv|eːd|s=1}}
+
+===Verb===
+{{head|sv|verb form}}
+
+# {{verb form of|sv|reda||imp}}
+# {{verb form of|sv|rida||past|ind}}
+
+===Anagrams===
+* {{anagrams|sv|a=der|der}}
+
+==Turkish==
+
+===Pronunciation===
+* {{audio|tr|LL-Q256 (tur)-ToprakM-red.wav}}
+
+===Noun===
+{{tr-noun|reddi|ler}}
+
+# {{alternative form of|tr|ret|t=refusal, rejection}}
+
+==Volapük==
+
+===Etymology===
+Borrowed from {{bor|vo|en|red}}.
+
+===Pronunciation===
+* {{IPA|vo|/red/}}
+
+===Noun===
+{{vo-noun}}
+
+# the colour red
+
+====Declension====
+{{vo-decl-noun}}
+
+====Derived terms====
+* {{l|vo|redik}}
+
+===See also===
+{{table:colors/vo}}
+
+==Yola==
+
+===Etymology===
+From {{inh|yol|enm|redden}}, from {{inh|yol|ang|hreddan}}.
+
+===Pronunciation===
+* {{IPA|yol|/rɛd/}}
+
+===Verb===
+{{head|yol|verb}}
+
+# to [[save]]
+#* {{quote-book|yol|year=1927|chapter=ZONG OF TWI MAARKEET MOANS|line=11|page=129|title=THE ANCIENT DIALECT OF THE BARONIES OF FORTH AND BARGY, COUNTY WEXFORD|passage=In durk Ich '''red''' virst mee left-vooted shoe."|translation=In the dark I <s>'''happened'''</s> first on my left-footed shoe."}}
+
+===References===
+* {{R:Browne 1927|page=129}}

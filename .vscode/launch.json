@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch wikparse",
+            "program": "${workspaceFolder}/wikparse.py",
+            "args": ["red", "-l", "en"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
