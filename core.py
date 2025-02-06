@@ -97,16 +97,82 @@ def tree_nodes_to_language_tree(tree, langcode, word):
 
             # iterate through the grandchildren of the language node
             for section in child["children"]:
-                process_section(section, language_tree)
+                if section["name"] == "Pronunciation":
+                    # process_pronunciation_section(section, parent_node)
+                    process_section(section, language_tree, 
+                                    ["enPR", "IPA", "homophones", "rhymes"], 
+                                    "pronunciation", multiple=False)
+                if section["name"].startswith("Etym"):
+                    # process_etymology_section(section, parent_node)
+                    process_section(section, language_tree, 
+                                    ["root", "inh", "cog", "m"], 
+                                    "etymologies", multiple=True)
 
     print(language_tree)
 
-def process_section(section, parent_node):
-    # process the section node and return a dictionary to add to the parent node
-    if section["name"] == "Pronunciation":
-        process_pronunciation_section(section, parent_node)
-    if section["name"].startswith("Etym"):
-        process_etymology_section(section, parent_node)
+
+# i want to make this more generic and parameter driven, here are the potential situations
+# *** section processing
+# section can be a one-off (Pronunciation) or can be potentially multiple (Etymology)
+# within each section, we can process tags or lines
+# e.g. Pronunciation is just processing of tags, but Word Class section will want to look at each line for 
+# inflection details and definitions
+# *** tag processing
+# tags can be one-off (IPA) or multiple (inh)
+# tag head can be copied through or changed - inh = inherits
+# tag arguments will differ - we need to map arg position to key
+# {{cog|fy|read}} maps to { "cognates": [ { "langcode": "fy", "word": "read" } ] }
+# sometimes there is only one argument, so the array will contain simple values not dictionaries
+# {{homophones|en|read}} maps to { "homophones": [ "read" ] }
+
+
+def process_section(section, parent_node, tags_to_process, node_name, multiple=False):
+    section_node = {}
+    # if there could be multiple sections, set up an array
+    if multiple:
+        if (node_name not in parent_node):
+            parent_node[node_name] = []
+
+    for line in section["lines"]:
+        tags = get_tags(line)
+        for tag in tags:
+            if tag_head(tag) in tags_to_process:
+                process_tag(tag, section_node)
+
+    if multiple:
+        parent_node[node_name].append(section_node)
+    else:
+        parent_node[node_name] = section_node
+
+def process_tag(tag, section_node):
+    # check for tags which can be multiple, these will need an array to have been set up
+    # NB other tags are added directly to the section node
+    if tag_head(tag) in ["homophones", "rhymes"]: # these use the tag head as the key
+        if tag_head(tag) not in section_node:
+            section_node[tag_head(tag)] = []
+    if tag_head(tag) in ["cog", "m"]:
+        if "cognates" not in section_node:
+            section_node["cognates"] = []
+    if tag_head(tag) in ["inh"]:
+        if "inherits" not in section_node:
+            section_node["inherits"] = []
+
+    # process each type of tag
+    if tag_head(tag) in ["enPR"]:
+        section_node[tag_head(tag)] = tag_arg(tag, 1)
+    if tag_head(tag) in ["IPA"]:
+        section_node[tag_head(tag)] = tag_arg(tag, 2)
+    if tag_head(tag) in ["homophones", "rhymes"]:
+        section_node[tag_head(tag)].append(tag_arg(tag, 2))
+    if tag_head(tag) in ["root"]:
+        new_node = { "langcode": tag_arg(tag, 2), "word": tag_arg(tag, 3) }
+        section_node["root"] = new_node
+    if tag_head(tag) in ["inh"]:
+        new_node = { "langcode": tag_arg(tag, 2), "word": tag_arg(tag, 3) }
+        section_node["inherits"].append(new_node)
+    if tag_head(tag) in ["cog", "m"]:
+        new_node = { "langcode": tag_arg(tag, 1), "word": tag_arg(tag, 2) }
+        section_node["cognates"].append(new_node)
 
 
 def process_pronunciation_section(section, parent_node):
