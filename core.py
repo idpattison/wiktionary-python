@@ -113,6 +113,12 @@ def process_children(section, parent_node):
         process_section(section, parent_node, 
                         ["root", "inh", "cog", "m"], 
                         "etymologies", multiple=True, add_name=True)
+    if section["name"] in ["Noun", "Verb", "Adjective", "Adverb"]:
+        process_section(section, parent_node, 
+                        [], # no tags to process here, only lines
+                        "word-classes", 
+                        multiple=True, add_name=True, process_lines=True)
+                        
 
 
 
@@ -131,7 +137,7 @@ def process_children(section, parent_node):
 # {{homophones|en|read}} maps to { "homophones": [ "read" ] }
 
 
-def process_section(section, parent_node, tags_to_process, node_name, multiple=False, add_name=False):
+def process_section(section, parent_node, tags_to_process, node_name, multiple=False, add_name=False, process_lines=False):
     section_node = {}
     # if there could be multiple sections, set up an array
     if multiple:
@@ -146,6 +152,9 @@ def process_section(section, parent_node, tags_to_process, node_name, multiple=F
         for tag in tags:
             if tag_head(tag) in tags_to_process:
                 process_tag(tag, section_node)
+
+        if process_lines:
+            process_line(line, section_node)
 
     for child in section["children"]:
         process_children(child, section_node)
@@ -197,6 +206,14 @@ def process_tag(tag, section_node):
         if translit:
             new_node["translit"] = translit
         section_node["cognates"].append(new_node)
+
+def process_line(line, section_node):
+    if section_node["name"] in ["Noun", "Verb", "Adjective", "Adverb"]:
+        if "definitions" not in section_node:
+            section_node["definitions"] = []
+        if line.startswith("# "):
+            definition = get_text_from_wiktionary(line[2:], "red", "en") # TODO
+            section_node["definitions"].append(definition)
 
 
 def process_pronunciation_section(section, parent_node):
@@ -299,3 +316,20 @@ def tag_key(tag, key):
     for arg in args:
         if arg.startswith(key + "="):
             return arg.split('=')[1]
+        
+def get_text_from_wiktionary(text, word, langcode):
+    # for a piece of Wikitext, get the formatted text from Wiktionary
+    # first define the URL to retrieve the data
+    urlHead = "https://en.wiktionary.org/w/api.php?action=parse&text="
+    urlMid = "&prop=text&title="
+    urlTail = "&formatversion=2&format=json"
+
+    # make an HTTP request to Wiktionary
+    response = requests.get(urlHead + text + urlMid + get_page_title(word, langcode) + urlTail)
+    data = response.json()['parse']['text']
+    return data
+
+def get_page_title(word, langcode):
+    # reconstructed words have a different format, for now just return the word
+    return word
+
