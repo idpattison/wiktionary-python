@@ -97,18 +97,23 @@ def tree_nodes_to_language_tree(tree, langcode, word):
 
             # iterate through the grandchildren of the language node
             for section in child["children"]:
-                if section["name"] == "Pronunciation":
-                    # process_pronunciation_section(section, parent_node)
-                    process_section(section, language_tree, 
-                                    ["enPR", "IPA", "homophones", "rhymes"], 
-                                    "pronunciation", multiple=False)
-                if section["name"].startswith("Etym"):
-                    # process_etymology_section(section, parent_node)
-                    process_section(section, language_tree, 
-                                    ["root", "inh", "cog", "m"], 
-                                    "etymologies", multiple=True)
+                process_children(section, language_tree)
 
     print(language_tree)
+
+
+def process_children(section, parent_node):
+    if section["name"] == "Pronunciation":
+        # process_pronunciation_section(section, parent_node)
+        process_section(section, parent_node, 
+                        ["enPR", "IPA", "homophones", "rhymes"], 
+                        "pronunciation")
+    if section["name"].startswith("Etym"):
+        # process_etymology_section(section, parent_node)
+        process_section(section, parent_node, 
+                        ["root", "inh", "cog", "m"], 
+                        "etymologies", multiple=True, add_name=True)
+
 
 
 # i want to make this more generic and parameter driven, here are the potential situations
@@ -126,18 +131,24 @@ def tree_nodes_to_language_tree(tree, langcode, word):
 # {{homophones|en|read}} maps to { "homophones": [ "read" ] }
 
 
-def process_section(section, parent_node, tags_to_process, node_name, multiple=False):
+def process_section(section, parent_node, tags_to_process, node_name, multiple=False, add_name=False):
     section_node = {}
     # if there could be multiple sections, set up an array
     if multiple:
         if (node_name not in parent_node):
             parent_node[node_name] = []
 
+    if add_name:
+        section_node["name"] = section["name"]
+
     for line in section["lines"]:
         tags = get_tags(line)
         for tag in tags:
             if tag_head(tag) in tags_to_process:
                 process_tag(tag, section_node)
+
+    for child in section["children"]:
+        process_children(child, section_node)
 
     if multiple:
         parent_node[node_name].append(section_node)
@@ -167,11 +178,24 @@ def process_tag(tag, section_node):
     if tag_head(tag) in ["root"]:
         new_node = { "langcode": tag_arg(tag, 2), "word": tag_arg(tag, 3) }
         section_node["root"] = new_node
+
     if tag_head(tag) in ["inh"]:
         new_node = { "langcode": tag_arg(tag, 2), "word": tag_arg(tag, 3) }
         section_node["inherits"].append(new_node)
-    if tag_head(tag) in ["cog", "m"]:
+    if tag_head(tag) in ["cog", "m"]: 
+        # {{cog|fy|read}}
+        # {{cog|sq|pruth||redhead}}
+        # {{cog|sa|रुधिर|tr=rudhirá||red, bloody}}
         new_node = { "langcode": tag_arg(tag, 1), "word": tag_arg(tag, 2) }
+        arg4 = tag_arg(tag, 4)
+        arg5 = tag_arg(tag, 5)
+        if arg4 and arg4 != "" and "=" not in arg4: # can appear in 4 or 5
+            new_node["gloss"] = arg4
+        if arg5 and arg5 != "" and "=" not in arg5: # can appear in 4 or 5
+            new_node["gloss"] = arg5
+        translit = tag_key(tag, "tr")
+        if translit:
+            new_node["translit"] = translit
         section_node["cognates"].append(new_node)
 
 
@@ -266,3 +290,12 @@ def tag_arg(tag, index):
         return get_tag_arguments(tag)[index]
     else:
         return None
+    
+def tag_key(tag, key):
+    # get a key from the start of an argument
+    # format will be {{cog|sa|रुधिर|tr=rudhirá||red, bloody}}
+    # return the key's value
+    args = get_tag_arguments(tag)
+    for arg in args:
+        if arg.startswith(key + "="):
+            return arg.split('=')[1]
