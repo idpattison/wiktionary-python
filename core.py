@@ -1,22 +1,7 @@
 import json
 import requests
 import re
-
-# class TreeNode:
-#     def __init__(self, type=None, name=None):  # type for the node, attributes as keyword args
-#         self.name = name
-#         self.type = type
-#         self.lines = []  # Initialize as an empty list
-#         self.children = [] # Initialize as an empty list
-
-#     def add_child(self, child):
-#         self.children.append(child)
-
-#     def add_line(self, line):
-#         self.lines.append(line)
-
-#     def __repr__(self):  # For easy printing/representation
-#         return f"TreeNode(name={self.name}, lines={len(self.lines)})"
+from bs4 import BeautifulSoup
 
 
 
@@ -178,23 +163,26 @@ def process_tag(tag, section_node):
             section_node["inherits"] = []
 
     # process each type of tag
+    # pronunciation section
     if tag_head(tag) in ["enPR"]:
         section_node[tag_head(tag)] = tag_arg(tag, 1)
     if tag_head(tag) in ["IPA"]:
         section_node[tag_head(tag)] = tag_arg(tag, 2)
     if tag_head(tag) in ["homophones", "rhymes"]:
         section_node[tag_head(tag)].append(tag_arg(tag, 2))
+
+    # etymology section
     if tag_head(tag) in ["root"]:
         new_node = { "langcode": tag_arg(tag, 2), "word": tag_arg(tag, 3) }
         section_node["root"] = new_node
-
     if tag_head(tag) in ["inh"]:
         new_node = { "langcode": tag_arg(tag, 2), "word": tag_arg(tag, 3) }
         section_node["inherits"].append(new_node)
     if tag_head(tag) in ["cog", "m"]: 
         # {{cog|fy|read}}
-        # {{cog|sq|pruth||redhead}}
-        # {{cog|sa|रुधिर|tr=rudhirá||red, bloody}}
+        # {{cog|sq|pruth||redhead}} - arg 4 is the gloss
+        # {{cog|sa|रुधिर|tr=rudhirá||red, bloody}} - arg 3 is the transliteration, arg 5 is the gloss
+        # {{cog|grc|ἐρυθρός}} - arg 2 is a non-Latin word but no transliteration is provided
         new_node = { "langcode": tag_arg(tag, 1), "word": tag_arg(tag, 2) }
         arg4 = tag_arg(tag, 4)
         arg5 = tag_arg(tag, 5)
@@ -203,10 +191,17 @@ def process_tag(tag, section_node):
         if arg5 and arg5 != "" and "=" not in arg5: # can appear in 4 or 5
             new_node["gloss"] = arg5
         translit = tag_key(tag, "tr")
+        # if there is no transliteration for a non-Latin script word, get it from Wiktionary
+        # remember that we stripped the {{}} from the tag, so add them back in
+        # NB we may have a hyphen, apostrophe, or an asterisk for reconstructed words
+        if not translit and not re.match(r"^[a-zA-Z'*-]+$", tag_arg(tag, 2)):
+            translit = get_transliteration_from_wiktionary("{{" + tag + "}}", "red", "en") # TODO
+        # if we now have a transliteration, add it to the node
         if translit:
             new_node["translit"] = translit
         section_node["cognates"].append(new_node)
 
+# in some sections we need to process lines rather than tags
 def process_line(line, section_node):
     if section_node["name"] in ["Noun", "Verb", "Adjective", "Adverb"]:
         if "definitions" not in section_node:
@@ -216,6 +211,7 @@ def process_line(line, section_node):
             section_node["definitions"].append(definition)
 
 
+# TODO this section no longer used?
 def process_pronunciation_section(section, parent_node):
     # process the pronunciation section and return a dictionary to add to the parent node
     pronunciation_node = {}
@@ -229,6 +225,7 @@ def process_pronunciation_section(section, parent_node):
 
     parent_node["pronunciation"] = pronunciation_node
 
+# TODO this section no longer used?
 def process_etymology_section(section, parent_node):
     # process the etymology section and return a dictionary to add to the parent node
     etymology_node = { "name": section["name"] }
@@ -271,7 +268,8 @@ def process_etymology_section(section, parent_node):
                 # if there is a tag 3 in a non-inh tag, it is likely to be a transliteration
                 # format is tr=transliteration
                 # we should also check if the word is in a non-Latin script
-                if tag_head(tag) != "inh" and tag_arg(tag, 3) and tag_arg(tag, 3) != "" and not re.match(r'^[a-zA-Z0-9]*$', word):
+                # NB only check the first letter of the word, which could also be an asterisk
+                if tag_head(tag) != "inh" and tag_arg(tag, 3) and tag_arg(tag, 3) != "" and not re.match(r'^[a-zA-Z0-9*]*$', word[0]):
                     new_node["translit"] = tag_arg(tag, 3)[3:]
                 # if there is a tag 4 or tag 5, it is likely to be a gloss
                 if tag_arg(tag, 4) and tag_arg(tag, 4) != "":
@@ -318,18 +316,42 @@ def tag_key(tag, key):
             return arg.split('=')[1]
         
 def get_text_from_wiktionary(text, word, langcode):
+    html = get_html_from_wiktionary(text, word, langcode)
+    # get the text from the HTML
+    soup = BeautifulSoup(html, 'lxml')
+    return soup.get_text()
+
+def get_transliteration_from_wiktionary(text, word, langcode):
+    html = get_html_from_wiktionary(text, word, langcode)
+    # get the transliteration from the HTML
+    soup = BeautifulSoup(html, 'lxml')
+    span = soup.find('span', class_='Latn')
+    if span:
+        return span.get_text()
+    else:
+        return None
+
+def get_html_from_wiktionary(text, word, langcode):
     # for a piece of Wikitext, get the formatted text from Wiktionary
     # first define the URL to retrieve the data
     urlHead = "https://en.wiktionary.org/w/api.php?action=parse&text="
     urlMid = "&prop=text&title="
     urlTail = "&formatversion=2&format=json"
 
+    # first, encode any # symbols in the text
+    text = text.replace("#", "%23")
+
     # make an HTTP request to Wiktionary
     response = requests.get(urlHead + text + urlMid + get_page_title(word, langcode) + urlTail)
-    data = response.json()['parse']['text']
-    return data
+
+    # get the HTML from the JSON data
+    html = response.json()['parse']['text']
+
+    return html
 
 def get_page_title(word, langcode):
     # reconstructed words have a different format, for now just return the word
     return word
+
+
 
